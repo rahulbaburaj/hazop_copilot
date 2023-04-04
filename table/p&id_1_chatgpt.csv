@@ -1,0 +1,24 @@
+Element1,Element2,Relationship
+P-101 (Pump),E-101 (Heat Exchanger),P-101 supplies fluid to E-101
+E-101 (Heat Exchanger),V-101 (Distillation Column),E-101 supplies heated fluid to V-101
+V-101 (Distillation Column),E-102 (Reboiler),E-102 provides heat to V-101
+V-101 (Distillation Column),PI (Pressure Indicator),PI measures pressure in V-101
+V-101 (Distillation Column),LI (Level Indicator),LI measures liquid level in V-101
+E-101 (Heat Exchanger),TI (Temperature Indicator) - Inlet,TI measures inlet temperature of E-101
+E-101 (Heat Exchanger),TI (Temperature Indicator) - Outlet,TI measures outlet temperature of E-101
+LIC (Level Indicator Controller),CV (Control Valve) - Level,LIC controls the position of CV based on LI input
+TIC (Temperature Indicator Controller),CV (Control Valve) - Temperature,TIC controls the position of CV based on TI input
+FI (Flow Indicator),Piping,FI measures flow rate in the piping
+Manual Valve,Piping,Manual Valve controls fluid flow in the piping
+Check Valve,Piping,Check Valve prevents backflow in the piping
+P-101 (Pump),FI (Flow Indicator),FI measures flow rate from P-101
+P-101 (Pump),Check Valve,Check Valve prevents backflow to P-101
+P-101 (Pump),Manual Valve,Manual Valve controls fluid flow from P-101
+E-101 (Heat Exchanger),TIC (Temperature Indicator Controller),TIC receives temperature input from E-101
+E-101 (Heat Exchanger),Manual Valve,Manual Valve controls fluid flow to E-101
+E-101 (Heat Exchanger),Check Valve,Check Valve prevents backflow to E-101
+V-101 (Distillation Column),LIC (Level Indicator Controller),LIC receives level input from V-101
+V-101 (Distillation Column),Manual Valve,Manual Valve controls fluid flow from V-101
+V-101 (Distillation Column),Check Valve,Check Valve prevents backflow from V-101
+E-102 (Reboiler),Manual Valve,Manual Valve controls fluid flow to E-102
+E-102 (Reboiler),Check Valve,Check Valve prevents backflow to E-102
