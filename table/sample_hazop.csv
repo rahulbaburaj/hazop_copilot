@@ -1,0 +1,61 @@
+Entity 1, Entity 2, Relationship
+Feedwater, Steam drum, Supplies feedwater
+Steam drum, Heater, Supplies steam to heater
+Heater, Condensate tank, Supplies heated water to condensate tank
+Condensate tank, Deaerator, Supplies condensate to deaerator
+Deaerator, Steam separator, Supplies deaerated water to steam separator
+Steam separator, Gas turbine, Supplies steam to gas turbine
+Gas turbine, Boiler, Supplies exhaust gas to boiler
+Boiler, Condenser, Supplies steam to condenser
+Condenser, Extraction pump, Supplies condensate to extraction pump
+Extraction pump, Feedwater line, Supplies feedwater to feedwater line
+Fuel gas, Air compressor, Supplies fuel gas to air compressor
+Air compressor, Air heater, Supplies compressed air to air heater
+Air heater, Air cooler, Supplies heated air to air cooler
+Air cooler, Dryer, Supplies cooled air to dryer
+Dryer, Scrubber, Supplies dried air to scrubber
+Scrubber, Generator, Supplies clean air to generator
+Generator, Motor, Supplies electricity to motor
+Motor, Valve, Supplies power to valve
+Water tank, Instrument air line, Supplies water to instrument air line
+Instrument air filter, Instrument air dryer, Supplies filtered air to instrument air dryer
+Instrument air dryer, Instrument air regulator, Supplies dried air to instrument air regulator
+Feedwater line, Steam drum, Supplies feedwater to steam drum
+Steam drum, Heater, Supplies steam to heater
+Heater, Condensate tank, Supplies heated water to condensate tank
+Condensate tank, Deaerator, Supplies condensate to deaerator
+Deaerator, Steam separator, Supplies deaerated water to steam separator
+Steam separator, Gas turbine, Supplies steam to gas turbine
+Gas turbine, Condenser, Supplies exhaust gas to condenser
+Condenser, Extraction pump, Supplies condensate to extraction pump
+Extraction pump, Feedwater line, Supplies feedwater to feedwater line
+Fuel gas, Air compressor, Supplies fuel gas to air compressor
+Air compressor, Air heater, Supplies compressed air to air heater
+Air heater, Air cooler, Supplies heated air to air cooler
+Air cooler, Dryer, Supplies cooled air to dryer
+Dryer, Scrubber, Supplies dried air to scrubber
+Scrubber, Generator, Supplies clean air to generator
+Generator, Motor, Supplies electricity to motor
+Motor, Valve, Supplies power to valve
+Valve, Steam line, Supplies steam to steam line
+Steam line, Condensate line, Supplies steam to condensate line
+Condensate line, Deaerator line, Supplies condensate to deaerator line
+Deaerator line, Steam separator line, Supplies deaerated water to steam separator line
+Steam separator line, Gas turbine line, Supplies steam to gas turbine line
+Gas turbine line, Boiler line, Supplies exhaust gas to boiler line
+Boiler line, Condenser line, Supplies steam to condenser line
+Condenser line, Extraction pump line, Supplies condensate to extraction pump line
+Extraction pump line, Feedwater line, Supplies feedwater to feedwater line
+Fuel gas line, Air compressor line, Supplies fuel gas to air compressor line
+Air compressor line, Air heater line, Supplies compressed air to air heater line
+Air heater line, Air cooler line, Supplies heated air to air cooler line
+Air cooler line, Dryer line, Supplies cooled air to dryer line
+Dryer line, Scrubber line, Supplies dried air to scrubber line
+Scrubber line, Generator line, Supplies clean air to generator line
+Generator line, Motor line, Supplies electricity to motor line
+Motor line, Valve line, Supplies power to valve line
+Valve line, Water tank line, Supplies power to water tank line
+Water tank line, Instrument air line, Supplies water to instrument air line
+Instrument air line, Instrument air filter line, Supplies water to instrument air filter line
+Instrument air filter line, Instrument air dryer line, Supplies filtered air to instrument air dryer line
+Instrument air dryer line, Instrument air regulator line, Supplies dried air to instrument air reg
